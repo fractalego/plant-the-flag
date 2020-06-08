@@ -1,0 +1,11 @@
+cl run 'data:0x22dc32' 'sample_io_with_name.py:0x79dfe0' 'evaluate.py:0x1f8837' 'fewrel0-cpu.model:0x160cce' 'test_codalab.py:0x79fdbe' 'props.json:0x71c984' 'evaluate.sh:0x56bafb' 'tokenizer:0x8ee98e' 'bert:0xfe43fa' 'bash evaluate.sh' --request-docker-image huggingface/transformers-pytorch-gpu --request-memory 16g
+
+
+5way
+  0.88 (with 100 5 1 12345)
+  0.88 (with 100 5 5 12345)
+10way
+  0.84
+
+
+
